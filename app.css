@@ -1,0 +1,100 @@
+body {
+	background-color: #112D48;
+	font-family: Graphik, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	margin-top: -70px;
+	position: absolute;
+	margin-left: 45%;
+	
+}
+
+.container {
+	background-color: #FFFFFF;
+	width: 410px;
+	height: 260px;
+	margin-left: 34%;
+	margin-top: 14%;
+	padding: 20px;
+	border-radius: 5px;
+}
+.logintext h1, h2, h3{
+	text-align: center;
+	font-family: inherit;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	letter-spacing: 1px;
+}
+
+.loginform {
+	padding: 20px;
+}
+
+input[type=email] {
+	width: 100%;
+	display: inline-block;
+	padding: 8px 14px;
+	margin: 4px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+}
+
+input[type=email]:focus {
+	border-color: #dee5e7;
+	border-radius: 4px;
+}
+
+input[type=password] {
+	width: 100%;
+	display: inline-block;
+	padding: 8px 14px;
+	margin: 4px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: 12px;
+}
+
+input[type=button] {
+	
+	width: 100%;
+	background-color: #88d098;
+	padding: 8px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.42857143;
+	text-transform: none;
+	text-align: center;
+	color: #FFFFFF
+}
+
+.newaccount a{
+	background-color: transparent;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 12px
+}
+
+.forgot {
+	margin-top: -15px;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: underline;
+}
